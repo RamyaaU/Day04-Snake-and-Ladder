@@ -18,7 +18,7 @@ namespace SnakeAndLadder
     {
         //constants
         public const int START_POINT = 0;
-        public const int FINISH_POINT = 100;
+        public const int FINISH_POINT = 10;
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to snakes and ladders game \nEnter player name");
