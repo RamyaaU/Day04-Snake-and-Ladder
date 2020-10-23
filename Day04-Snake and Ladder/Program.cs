@@ -15,16 +15,12 @@ using System;
 namespace SnakeAndLadder
 {
     class Program
-    {
-        //constants
-        public const int START_POINT = 0;
-        public const int FINISH_POINT = 10;
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Welcome to snakes and ladders game \nEnter player name");
-            string player1 = Console.ReadLine(); //userinput
-            int playerPosition = START_POINT;
-            Console.WriteLine("Current Position : " + playerPosition);
+    {    
+            static void main(string[] args)
+            {
+                //constants
+                const int playerOne = 1;
+                int positionOne = 0;
+            }
         }
     }
-}
