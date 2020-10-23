@@ -15,23 +15,13 @@ namespace Day04_Snake_and_Ladder
 {
     class Program
     {
-        //constants
-        public const int START_POINT = 0;
-        public const int FINISH_POINT = 10;
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to snakes and ladders game \nEnter player name");
-            //user input
-            string player1 = Console.ReadLine();
-            //initialization
-            int diceRoll = DiceRoll();
-            Console.WriteLine("Dice Roll : " + diceRoll);
-        }
-        static int DiceRoll()
-        {
-            Random random = new Random();
-            int diceNumber = random.Next(1, 7);
-            return diceNumber;
+            const int playerOne = 1; //constants
+            int positionOne = 0;
+            Random random = new Random(); 
+            int dieRoll = random.Next(1, 7);  //returns a random no betwenn 1 and 7
+            Console.WriteLine("Die Rolls: " + dieRoll);
         }
     }
 }
